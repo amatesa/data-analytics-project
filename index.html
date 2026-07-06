@@ -30,9 +30,9 @@
   <main id="top">
     <section class="hero">
       <div class="hero-inner">
-        <p class="eyebrow">Trabajo Práctico Integrador · Comisión C26106</p>
-        <h1>Case study de ventas, clientes y marketing para entender el comportamiento comercial.</h1>
-        <p class="hero-copy">Proyecto desarrollado por Alejandro Matesa sobre tres fuentes de datos: ventas.csv, clientes.csv y marketing.csv. El análisis recorre carga, limpieza, transformación, estadística descriptiva, visualización y dashboard interactivo en Python.</p>
+        <p class="eyebrow">Trabajo Práctico Integrador · Comisión C26109</p>
+        <h1>Análisis integral de datos de ventas, clientes y marketing para apoyar la toma de decisiones mediante técnicas de Data Analytics.</h1>
+        <p class="hero-copy">Proyecto desarrollado sobre tres conjuntos de datos correspondientes a ventas, clientes y campañas de marketing. El análisis recorre carga, limpieza, transformación, estadística descriptiva, visualización y dashboard interactivo en Python.</p>
         <div class="hero-actions">
           <a class="button primary" href="#findings">Ver resultados</a>
           <a class="button secondary" href="assets/Trabajo_Practico_Integrador_Data_Analytics.ipynb">Abrir notebook</a>
@@ -74,7 +74,7 @@
         <article class="card reveal">
           <span class="card-icon">03</span>
           <h3>Resultado final</h3>
-          <p>El notebook consolida métricas, visualizaciones en Matplotlib y Seaborn, y un dashboard interactivo de Plotly con ingreso total, venta promedio, ventas mensuales, categorías, dispersión y top productos.</p>
+          <p>El proyecto integra análisis estadístico, visualizaciones y un dashboard interactivo que resume los principales indicadores del negocio.</p>
         </article>
       </div>
     </section>
@@ -82,30 +82,43 @@
     <section class="section muted" id="method">
       <div class="section-heading reveal">
         <p class="eyebrow">Metodología</p>
-        <h2>Cuatro etapas de trabajo reproducibles.</h2>
+        <h2>Flujo de trabajo.</h2>
         <p>La metodología documentada en el notebook combina exploración inicial, limpieza, transformación, análisis estadístico y construcción de un dashboard para comunicar los principales indicadores.</p>
       </div>
       <div class="timeline">
+
         <article class="timeline-item reveal">
-          <span>Carga</span>
-          <h3>Recopilación y validación</h3>
-          <p>Los datasets se cargaron desde enlaces públicos de Google Drive y se validaron con muestras iniciales, dimensiones, tipos de datos, estadísticas descriptivas, valores nulos y duplicados.</p>
+          <span>Recopilación</span>
+          <h3>Carga y validación de datos</h3>
+          <p>
+            Los conjuntos de datos se cargaron desde Google Drive en Google Colaboratory y se verificaron mediante un análisis exploratorio inicial, revisando dimensiones, tipos de datos, estadísticas descriptivas, valores nulos y registros duplicados.
+          </p>
         </article>
+      
         <article class="timeline-item reveal">
-          <span>Limpieza</span>
-          <h3>Preparación de ventas</h3>
-          <p>En ventas se renombró precio a precio_unitario, se removió el símbolo monetario, se convirtió fecha_venta a datetime, se eliminaron 35 duplicados y se descartaron registros con nulos en precio o cantidad.</p>
+          <span>Preparación</span>
+          <h3>Limpieza y transformación</h3>
+          <p>
+            El conjunto de ventas fue normalizado renombrando variables, convirtiendo el precio a formato numérico y la fecha al tipo datetime. Además, se eliminaron registros duplicados y filas con valores nulos para garantizar la calidad de los datos.
+          </p>
         </article>
-        <article class="timeline-item reveal">
-          <span>Transformación</span>
-          <h3>Variables e integración</h3>
-          <p>La variable venta_neta se calculó multiplicando precio_unitario por cantidad. Luego se agruparon ingresos por producto y categoría, y se integraron ventas limpias con marketing por producto.</p>
-        </article>
+      
         <article class="timeline-item reveal">
           <span>Análisis</span>
-          <h3>Estadística y visualización</h3>
-          <p>El análisis incorporó medidas de tendencia central, dispersión, percentiles, evolución temporal, distribución de ventas, boxplots por categoría, matriz de correlación y dashboard interactivo.</p>
+          <h3>Análisis e integración</h3>
+          <p>
+            Se calculó la variable <strong>venta_neta</strong>, se realizaron agregaciones por producto y categoría y posteriormente se integraron los datos de ventas con las campañas de marketing para ampliar el análisis del negocio.
+          </p>
         </article>
+      
+        <article class="timeline-item reveal">
+          <span>Visualización</span>
+          <h3>Estadística y visualización</h3>
+          <p>
+            Se desarrolló un análisis estadístico descriptivo acompañado de visualizaciones con Matplotlib, Seaborn y Plotly, finalizando con un dashboard interactivo que resume los principales indicadores del proyecto.
+          </p>
+        </article>
+      
       </div>
     </section>
 
@@ -295,7 +308,70 @@
         </a>
       </div>
     </section>
-
+    
+    <section id="technologies" class="section">
+    
+      <div class="container">
+    
+        <div class="section-header reveal">
+    
+          <span class="section-tag">Herramientas</span>
+    
+          <h2>Tecnologías utilizadas</h2>
+    
+          <p>
+            El proyecto fue desarrollado íntegramente utilizando herramientas del ecosistema de análisis de datos en Python, desde la preparación de la información hasta la generación de visualizaciones y dashboards.
+          </p>
+    
+        </div>
+    
+        <div class="tech-grid">
+    
+          <div class="tech-card reveal">
+            <img src="assets/icons/python.svg" alt="Python">
+            <h3>Python</h3>
+          </div>
+    
+          <div class="tech-card reveal">
+            <img src="assets/icons/pandas.svg" alt="Pandas">
+            <h3>Pandas</h3>
+          </div>
+    
+          <div class="tech-card reveal">
+            <img src="assets/icons/numpy.svg" alt="NumPy">
+            <h3>NumPy</h3>
+          </div>
+    
+          <div class="tech-card reveal">
+            <img src="assets/icons/matplotlib.svg" alt="Matplotlib">
+            <h3>Matplotlib</h3>
+          </div>
+    
+          <div class="tech-card reveal">
+            <img src="assets/icons/seaborn.svg" alt="Seaborn">
+            <h3>Seaborn</h3>
+          </div>
+    
+          <div class="tech-card reveal">
+            <img src="assets/icons/plotly.svg" alt="Plotly">
+            <h3>Plotly</h3>
+          </div>
+    
+          <div class="tech-card reveal">
+            <img src="assets/icons/colab.svg" alt="Google Colab">
+            <h3>Google Colab</h3>
+          </div>
+    
+          <div class="tech-card reveal">
+            <img src="assets/icons/github.svg" alt="GitHub Pages">
+            <h3>GitHub Pages</h3>
+          </div>
+    
+        </div>
+    
+      </div>
+    
+    </section>
     <section class="section conclusion">
       <div class="section-heading reveal">
         <p class="eyebrow">Conclusión</p>
