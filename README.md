@@ -2,7 +2,7 @@
 
 Sitio estático para GitHub Pages basado en el notebook `Trabajo_Practico_Integrador_Data_Analytics.ipynb`.
 
-Live demo: https://amatesa.github.io/portfolio](https://amatesa.github.io/D-data-analytics-project/
+Live demo: https://amatesa.github.io/D-data-analytics-project/
 ## Fuente de datos
 
 El notebook es la fuente de verdad del contenido, métricas y conclusiones del sitio. El análisis trabaja con tres datasets:
